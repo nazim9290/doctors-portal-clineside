@@ -4,20 +4,12 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
-import { experimentalStyled as styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import React from 'react';
 import cavity from '../../../images/cavity.png';
 import fluoride from '../../../images/fluoride.png';
 import whitening from '../../../images/whitening.png';
 
-const Item = styled(Paper)(({ theme }) => ({
-    ...theme.typography.body2,
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  }));
   const services = [
     {
         name: 'Fluoride Treatment',

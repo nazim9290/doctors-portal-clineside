@@ -21,7 +21,7 @@ const Navbar = () => {
                     >
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Doctores portel
+                        Doctores portal
                     </Typography>
                     <Button color="inherit">Login</Button>
                 </Toolbar>
